@@ -1,0 +1,40 @@
+.custom-title {
+    background-color: var(--color-primary);
+    margin-top: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    padding: 12px 50px 12px 30px;
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.img-custom-bg {
+    background: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .custom-margin {
+        margin-left: 18px;
+        margin-right: 5px;
+    }
+
+    .order-two {
+        order: 2;
+    }
+
+    .text-center-custom {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .custom-justify-content-evenly {
+        justify-content: space-evenly;
+    }
+
+
+}
